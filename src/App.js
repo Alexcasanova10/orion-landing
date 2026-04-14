@@ -3,6 +3,9 @@ import { useTranslation, Trans } from 'react-i18next';
 import './App.css';
 import casanovaImg from './assets/images/casanova.jpeg';
 import huizarImg from './assets/images/huizar.jpeg';
+import daniaImg from './assets/images/dania.jpeg';
+import eliasImg from './assets/images/elias.jpeg';
+
 import LanguageSwitcher from './components/LanguageSwitcher';
 import { FaCode, FaMobileAlt, FaCloudUploadAlt, FaChartLine, FaCheckCircle, FaRocket, FaEye, FaHandshake } from 'react-icons/fa';
 
@@ -13,11 +16,13 @@ function App() {
     {
       name: "Jose Navarro",
       role: "Frontend Developer",
+      image: eliasImg,
       icon: <FaCode size={40} />,
       color: "#0a192f"
     },
     {
       name: "Dania Saavedra",
+      image: daniaImg,
       role: "Mobile Dev (Android)",
       icon: <FaMobileAlt size={40} />,
       color: "#0a192f"
