@@ -49,7 +49,7 @@ function App() {
         <div className="container nav-container">
           <div className="logo">
             <span className="logo-icon">⌘</span>
-            <span className="logo-text">Orión<span className="logo-tech">Technologies</span></span>
+            <span className="logo-text">Orion<span className="logo-tech">Technologies</span></span>
           </div>
           <ul className="nav-links">
             <li><a href="#nosotros">{t('nav.nosotros')}</a></li>
